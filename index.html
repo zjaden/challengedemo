@@ -12,16 +12,71 @@
        top: 0;
        width: 100%;
        height: 100%;
-       border: 0px solid #DEE2E6;
+       border: 0px solid #ffffff;
        border-radius: 0px;
     }
-    
+    #ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 30px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 10PX;
+   padding: 40PX;
+   text-align: center;
+   vertical-align: center;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 30px;
+   border-top-left-radius: 30px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 30px;
+   border-top-right-radius: 30px;
+}
+#ThemeableButton1.ui-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 5px solid #2a72b4;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+{
+   border-color: #969595;
+   background-color: #969595;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
+{
+   border-color: #838282;
+   background-color: #5c5b5b;
+   background-image: none;
+   color: #FFFFFF;
+}
+
 </style>
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play challenge.</tw-noscript></noscript></tw-story>
 <tw-storydata name="challenge" startnode="1" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="791A2B93-04CE-4589-9A44-D34E58B05739" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Bringing Life to the Dead" tags="" position="425,125" size="100,100">
-[[start the game]]</tw-passagedata><tw-passagedata pid="2" name="start the game" tags="" position="425,250" size="100,100">
+
+    <button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Start the game]]</button></tw-passagedata><tw-passagedata pid="2" name="Start the game" tags="" position="425,250" size="100,100">
        
     
     
@@ -44,13 +99,13 @@ Signed, Breanne Pitt and Abhinav Chugh
         </div>
 
 Do you choose to accept?
-[[yes]]
-[[no| end game]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Yes]]</button>
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[No|End game]]</button>
 
 
 
 
-</tw-passagedata><tw-passagedata pid="3" name="yes" tags="" position="350,375" size="100,100">
+</tw-passagedata><tw-passagedata pid="3" name="Yes" tags="" position="350,375" size="100,100">
     <div id="wb_MediaPlayer2" >
         <video id="wb_MediaPlayer2" class="MediaPlayer1" autoplay controls>
         <source src="2.mp4" type="video/mp4">
@@ -61,7 +116,7 @@ Do you choose to accept?
 
 You put your phone away and almost immedietly after you feel a buzz that seems to vibrate your entire body with excitement, the text reads, &quot;Great! Pack your things and meet us first thing at the airport for 4 am. See you soon and we are both looking forward to working with you!&quot;
 </div>
-[[You quickly pack your bag with all the essentials, including your TKS journal!]]</tw-passagedata><tw-passagedata pid="4" name=" end game" tags="" position="575,375" size="100,100">[[end game]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[You quickly pack your bag with all the essentials, including your TKS journal!]]</button></tw-passagedata><tw-passagedata pid="4" name="End game" tags="" position="575,375" size="100,100"><button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[End game]]</button>
 
 Your story ends here...</tw-passagedata><tw-passagedata pid="5" name="You quickly pack your bag with all the essentials, including your TKS journal!" tags="" position="350,500" size="100,100">
     <div id="wb_MediaPlayer3" >
@@ -75,9 +130,9 @@ Your story ends here...</tw-passagedata><tw-passagedata pid="5" name="You quickl
 You finally arrive to the village after a very long and tedious journey, your body feels exhausted but your mind seems to be restless and bursting with energy once your foot touches the dry and dense soil.
 </div>
 What is the first thing you want to do?
-[[visit the desolate &quot;farmland&quot; that has been assigned to you and gather your own information]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Visit the desolate &quot;farmland&quot; that has been assigned to you and gather your own information]]</button>
 or
-[[talk to locals to gather background information on what has happened and what is currently going on in the community|talk to locals]]</tw-passagedata><tw-passagedata pid="6" name="visit the desolate &quot;farmland&quot; that has been assigned to you and gather your own information" tags="" position="300,625" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Talk to locals to gather background information on what has happened and what is currently going on in the community|talk to locals]]</button></tw-passagedata><tw-passagedata pid="6" name="Visit the desolate &quot;farmland&quot; that has been assigned to you and gather your own information" tags="" position="300,625" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="4.mp4" type="video/mp4">
@@ -89,9 +144,9 @@ or
 You decide to look up and you see nothing but flat plains of hard soil with patches of lime green grass, but with no water in sight. You start to wonder why there is spots of grass that seems healthy, but you lack specific knowledge about the area.
 </div>
 What do you decide to do?
-[[go back into the village and talk to the locals|talk to locals]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Go back into the village and talk to the locals|talk to locals]]</button>
 or
-[[to check around a little bit more before heading back into the village to go get some well needed sleep]]</tw-passagedata><tw-passagedata pid="7" name="talk to locals" tags="" position="500,625" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[To check around a little bit more before heading back into the village to go get some well needed sleep]]</button></tw-passagedata><tw-passagedata pid="7" name="talk to locals" tags="" position="500,625" size="100,100">
     
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
@@ -107,18 +162,18 @@ I grabbed his hand firmly and shook it and introduced myself, then he responded,
 </div>
 Is there anything that you would like to ask?&quot;
 
-[[&quot;Have you beem rotating crops annually to ensure that nutrients are not just getting drained from the soil?&quot;|ali q1]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Have you beem rotating crops annually to ensure that nutrients are not just getting drained from the soil?&quot;|ali q1]]</button>
 
-[[&quot;How much land will you allocate me to turn into farmland and try to cultivate plant growth?&quot;|ali q2]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;How much land will you allocate me to turn into farmland and try to cultivate plant growth?&quot;|ali q2]]</button>
 
-[[&quot;Do you have an accurate measure of how much rainfall do you expect to come?&quot;| ali q3]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Do you have an accurate measure of how much rainfall do you expect to come?&quot;| ali q3]]</button>
 
-[[&quot;No, nothing else!&quot;]]
-
-
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;No, nothing else!&quot;]]</button>
 
 
-</tw-passagedata><tw-passagedata pid="8" name="to check around a little bit more before heading back into the village to go get some well needed sleep" tags="" position="300,750" size="100,100">
+
+
+</tw-passagedata><tw-passagedata pid="8" name="To check around a little bit more before heading back into the village to go get some well needed sleep" tags="" position="300,750" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="10.mp4" type="video/mp4">
@@ -129,7 +184,7 @@ Is there anything that you would like to ask?&quot;
 
 A rooster crowing at dawn startles you and you frantically get up and rub your eyes. You get up and you group back up with the translator and he says, &quot;I want you to meet someone, I will bring you to him, so get ready and meet me outside.&quot;
 </div>
-[[You get ready for the day and walk outside to meet the translater.|talk to locals]]</tw-passagedata><tw-passagedata pid="9" name="ali q1" tags="" position="500,750" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[You get ready for the day and walk outside to meet the translater.|talk to locals]]</button></tw-passagedata><tw-passagedata pid="9" name="ali q1" tags="" position="500,750" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="6.mp4" type="video/mp4">
@@ -143,8 +198,8 @@ A rooster crowing at dawn startles you and you frantically get up and rub your e
 </div>
 Ali asks,&quot;Is there anything else you want to hear?&quot;
 
-[[&quot;Yes, tell me more!&quot;|talk to locals]]
-[[&quot;No, nothing else!&quot;]] </tw-passagedata><tw-passagedata pid="10" name="ali q2" tags="" position="625,750" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Yes, tell me more!&quot;|talk to locals]]</button>
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;No, nothing else!&quot;]]</button> </tw-passagedata><tw-passagedata pid="10" name="ali q2" tags="" position="625,750" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="8.mp4" type="video/mp4">
@@ -156,8 +211,8 @@ Ali asks,&quot;Is there anything else you want to hear?&quot;
 </div>
 Ali asks,&quot;Is there anything else you want to hear?&quot;
 
-[[&quot;Yes, tell me more!&quot;|talk to locals]]
-[[&quot;No, nothing else!&quot;]] </tw-passagedata><tw-passagedata pid="11" name=" ali q3" tags="" position="500,875" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Yes, tell me more!&quot;|talk to locals]]</button>
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;No, nothing else!&quot;]]</button> </tw-passagedata><tw-passagedata pid="11" name=" ali q3" tags="" position="500,875" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="9.mp4" type="video/mp4">
@@ -168,8 +223,8 @@ Ali asks,&quot;Is there anything else you want to hear?&quot;
 </div>
 Ali asks,&quot;Is there anything else you want to hear?&quot;
 
-[[&quot;Yes, tell me more!&quot;|talk to locals]]
-[[&quot;No, nothing else!&quot;]] </tw-passagedata><tw-passagedata pid="12" name="&quot;No, nothing else!&quot;" tags="" position="625,875" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Yes, tell me more!&quot;|talk to locals]]</button>
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;No, nothing else!&quot;]]</button> </tw-passagedata><tw-passagedata pid="12" name="&quot;No, nothing else!&quot;" tags="" position="625,875" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="7.mp4" type="video/mp4">
@@ -181,13 +236,13 @@ Ali asks,&quot;Is there anything else you want to hear?&quot;
     I wave goodbye to my new friend, the head of the village, Ali, and I decide to go back into my provided guest living space to just reflect on what I have heard. I thought to myself while strolling to the guest house, &quot;The land faces so many different environmental challenges, but like Ali said, these plants just need water, so how can we boil these large problem down into something specific that I can then solve?&quot; To answer this question I pulled out a notebook and I started to jot down what I thought...
 </div>
 I said to myself, &quot;Hmmm, what are the main issues causing their crops to fail?&quot; 
-[[&quot;Is it wind and sand erosion that can deteriote the plant structure?&quot;|p1]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Is it wind and sand erosion that can deteriote the plant structure?&quot;|p1]]</button>
 
-[[&quot;Is it the direct exposure to the harsh Sun and uv rays that is causing the plants to die?&quot;|p2]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Is it the direct exposure to the harsh Sun and uv rays that is causing the plants to die?&quot;|p2]]</button>
 
-[[&quot;Is it because the water does not have the opportunity to seep into the soil before it gets evaporated?&quot;|p3]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Is it because the water does not have the opportunity to seep into the soil before it gets evaporated?&quot;|p3]]</button>
 
-[[&quot;Does the soil not have the necessary nutrients required for the crops to grow?&quot;|p4]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Does the soil not have the necessary nutrients required for the crops to grow?&quot;|p4]]</button>
 
 </tw-passagedata><tw-passagedata pid="13" name="p1" tags="" position="450,1000" size="100,100">
     <div id="wb_MediaPlayer3" >
@@ -198,7 +253,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">
     I thought about it for a second, &quot;Wait it is possible that it is one of the factors why their crops are failing, I have to find a way to shield the crops from wind and sand erosion, but I should still collect all of the possible issues that are causing their crops to fail. I wrote it down in my notebook and put a checkmark beside it.
 </div>
-[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</tw-passagedata><tw-passagedata pid="14" name="p2" tags="" position="575,1000" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</button></tw-passagedata><tw-passagedata pid="14" name="p2" tags="" position="575,1000" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="12.mp4" type="video/mp4">
@@ -207,7 +262,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">
     I wrote it down, but it did not seem right. I tried to reason for it, but it did not fit the puzzle. I spoke internally, &quot;No it cannot be this, I have to keep thinking.&quot;
 </div>
-[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</tw-passagedata><tw-passagedata pid="15" name="p4" tags="" position="825,1000" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</button></tw-passagedata><tw-passagedata pid="15" name="p4" tags="" position="825,1000" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="14.mp4" type="video/mp4">
@@ -216,7 +271,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">
     I said to myself, &quot;No, Ali told me multiple times that the soil having a lack of nutrients is not the issue and they are practing good agricultural habits to protect the nutrients in the ground. The way they are farming is sustainable, so it can not be this. I got to go back to the drawing board for this one.&quot;
 </div>
-[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</tw-passagedata><tw-passagedata pid="16" name="p3" tags="" position="700,1000" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Spend some more time thinking on what are the other main issues causing Ali&#39;s village&#39;s crops to not produce a sufficient harvest|&quot;No, nothing else!&quot;]]</button></tw-passagedata><tw-passagedata pid="16" name="p3" tags="" position="700,1000" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="13.mp4" type="video/mp4">
@@ -225,9 +280,9 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">
     As soon as the issue of the lack of water being absorbed by the soil came to mind, I felt a surge of joy because this was the core problem that Ali&#39;s village is facing regarding their crops. I hollered with joy because now I have something to focus in on to try create a solution for. I wrote it down in my notebook and put a bold checkmark beside it.
 </div>
-[[I thought to myself,&quot;Am I still missing something?&quot;|&quot;No, nothing else!&quot;]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[I thought to myself,&quot;Am I still missing something?&quot;|&quot;No, nothing else!&quot;]]</button>
 
-[[I thought to myself, &quot;That&#39;s it! Now I have a clear idea on what to solve. I wish my brain could still operate but I can already feel my eyes slowly closing. Maybe I need some sleep.&quot;|end of day 1/day 2]]</tw-passagedata><tw-passagedata pid="17" name="end of day 1/day 2" tags="" position="700,1125" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[I thought to myself, &quot;That&#39;s it! Now I have a clear idea on what to solve. I wish my brain could still operate but I can already feel my eyes slowly closing. Maybe I need some sleep.&quot;|end of day 1/day 2]]</button></tw-passagedata><tw-passagedata pid="17" name="end of day 1/day 2" tags="" position="700,1125" size="100,100">
     <div id="wb_MediaPlayer3" >
     <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
     <source src="15.mp4" type="video/mp4">
@@ -236,7 +291,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
     <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;"> 
     As I close my notebook and turn off the desk lamp, extreme fatigue hit me instantly and I was ready to lay flat out on the floor and just go to sleep. I yawned about 3 or 4 times and I had to snap myself out of my sleep trance to get out of my chair, put on some pajamas, and snuggle myself into bed. I said to myself, &quot;Today was a good day and I am so glad I figured it out the direct issues affecting their crops. Tomorrow is gonna be a busy day as well. I need to determine a method of actually implementing change in order to protect the crops and allow for water to be absorbed into the ground so that life can be supported again.&quot; I yawned loudly once more before absolutely passing out instantly...
 </div>
-[[&quot;ting-a-ling-aling ting-a-ling-aling,&quot; shouted my alarm at a time that was way too early to be up at...|day 2/3]]</tw-passagedata><tw-passagedata pid="18" name="day 2/3" tags="" position="700,1250" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Ting-a-ling-aling ting-a-ling-aling,&quot; shouted my alarm at a time that was way too early to be up at...|day 2/3]]</button></tw-passagedata><tw-passagedata pid="18" name="day 2/3" tags="" position="700,1250" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="16.mp4" type="video/mp4">
@@ -246,9 +301,9 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
     
     The sound of my annoying alarm abrubtly interupts my sleep, but I am reminded why I am here. Beams of sunlight seem to seep through the closed blinds and rest on my skin, providing an envigorating warmth that is full of vitality. It reminded me of life, and the life I will have to bring back to the community.
 </div>
-[[sleep for a couple more hours and crack open the notebook to think of ways to solve the main issues|do it myself]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Sleep for a couple more hours and crack open the notebook to think of ways to solve the main issues|do it myself]]</button>
 
-[[consult with Ali while formulating ideas to solve the main issues]]</tw-passagedata><tw-passagedata pid="19" name="ws1" tags="" position="450,1500" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Consult with Ali while formulating ideas to solve the main issues]]</button></tw-passagedata><tw-passagedata pid="19" name="ws1" tags="" position="450,1500" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="18.mp4" type="video/mp4">
@@ -257,7 +312,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">   
     I started to analyze the possiblity of this solution and I caught extreme fatal flaws. I realized that even if the fences will prevent wind erosion, it also reduces the available precipitation for the plant because wind disperses rain. Another key flaw is that a fence still does not address the issue of water absorption, the only thing that is different is an enclosure around the crop which does not change anything, but make it even harder for the plant to obtain water. It also prevents water from trickling into the crop because it reduces the space around the crop.
 </div>
-[[I say to myself, &quot;There must be another way, something more practical...|do it myself]]</tw-passagedata><tw-passagedata pid="20" name="ws2" tags="" position="600,1500" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[I say to myself, &quot;There must be another way, something more practical...|do it myself]]</button></tw-passagedata><tw-passagedata pid="20" name="ws2" tags="" position="600,1500" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="19.mp4" type="video/mp4">
@@ -266,7 +321,7 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">  
     I started to get frustrated when I started to realize that this would not work. Sure, the small holes may introduce a very small percentage of water into the ground, but it is definetly not enough to grow a plant and the chances of water landing in that hole is incredibly small. Maybe if gravity pulled water into the hole it would work, but numerous small holes around the field would not do anything, the water absoprtion would be imporved very slightly, not enough for any noticeable change.
 </div>
-[[I say to myself, &quot;There must be another way, something more practical...|do it myself]]</tw-passagedata><tw-passagedata pid="21" name="do it myself" tags="" position="600,1375" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[I say to myself, &quot;There must be another way, something more practical...|do it myself]]</button></tw-passagedata><tw-passagedata pid="21" name="do it myself" tags="" position="600,1375" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="17.mp4" type="video/mp4">
@@ -276,11 +331,11 @@ I said to myself, &quot;Hmmm, what are the main issues causing their crops to fa
     As soon as my eyes open I instantly get up, fasten myself to my desk chair and start thinking of ideas to increase water absorption in the soil, while protecting the crops from wind erosion. 
 You start to ponder on some potential candidates...
 </div>
-[[&quot;Do I build a fence around the crops to block out any form of wind to protect the overall structure of the plant?&quot;|ws1]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Do I build a fence around the crops to block out any form of wind to protect the overall structure of the plant?&quot;|ws1]]</button>
 
-[[&quot;Do I dig small holes throughout the field so that water seeps into the soil?&quot;|ws2]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;Do I dig small holes throughout the field so that water seeps into the soil?&quot;|ws2]]</button>
 
-[[&quot;I am missing something, I need to talk to Ali...|consult with Ali while formulating ideas to solve the main issues]]</tw-passagedata><tw-passagedata pid="22" name="consult with Ali while formulating ideas to solve the main issues" tags="" position="825,1375" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[&quot;I am missing something, I need to talk to Ali...|Consult with Ali while formulating ideas to solve the main issues]]</button></tw-passagedata><tw-passagedata pid="22" name="Consult with Ali while formulating ideas to solve the main issues" tags="" position="825,1375" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="20.mp4" type="video/mp4">
@@ -295,11 +350,11 @@ Ali gently responds, &quot;Why of course! It would be an honour to help you, ple
 
 Ali thought about what I said and began to speak with a big smile on his sand dusted face, &quot;Well, from what I know, in Kigali, Rwanda, they have deep angled water troughs that let gravity channel the water that pelts the city down into resevoirs. What if we can take this design but change it so that these troughs bring water to the plants like a funnel?&quot;
 </div>
-[[You shout loudly, &quot;You are a genius! We can create big water troughs that are shaped like a semi circle and the water can naturally flow down to the bottom where we plant your crops! Not only does it increase the amount of water available for the plants and soil, but it provides natural shelter from the ferocious winds!|fs1]]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[You shout loudly, &quot;You are a genius! We can create big water troughs that are shaped like a semi circle and the water can naturally flow down to the bottom where we plant your crops! Not only does it increase the amount of water available for the plants and soil, but it provides natural shelter from the ferocious winds!|fs1]]</button>
 
 or 
 
-[[You shout loudly, &quot;You are a genius! We can make water troughs and plant crops inside these water troughs, it provides some shelter but gives plants direct access to the water flowing on the surface!|wfs1]]</tw-passagedata><tw-passagedata pid="23" name="fs1" tags="" position="775,1500" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[You shout loudly, &quot;You are a genius! We can make water troughs and plant crops inside these water troughs, it provides some shelter but gives plants direct access to the water flowing on the surface!|wfs1]]</button></tw-passagedata><tw-passagedata pid="23" name="fs1" tags="" position="775,1500" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="21.mp4" type="video/mp4">
@@ -311,7 +366,7 @@ or
 Today is the moment of truth, the start of the construction of our semi-circles of life...
 </div>
 
-[[After construction, we waited for two weeks to see the growth of the plants...]]</tw-passagedata><tw-passagedata pid="24" name="wfs1" tags="" position="950,1500" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[After construction, we waited for two weeks to see the growth of the plants...]]</button></tw-passagedata><tw-passagedata pid="24" name="wfs1" tags="" position="950,1500" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="22.mp4" type="video/mp4">
@@ -321,7 +376,7 @@ Today is the moment of truth, the start of the construction of our semi-circles 
     I wrote in my notebook with excitement, &quot;We implimented a system that spans across the entire field with long strips of water troughs with plants nestled in it. These troughs are 2 metres wide and are 20 metres in length. In order to test it out before fully transforming the field, we built two of these these troughs and aim to see how well it works out!
 
 </div>  
-[[After we finished building the troughs, we waited 2 weeks to see the effectiveness of our system!&quot;]]</tw-passagedata><tw-passagedata pid="25" name="After construction, we waited for two weeks to see the growth of the plants..." tags="" position="775,1625" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[After we finished building the troughs, we waited 2 weeks to see the effectiveness of our system!&quot;]]</button></tw-passagedata><tw-passagedata pid="25" name="After construction, we waited for two weeks to see the growth of the plants..." tags="" position="775,1625" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="24.mp4" type="video/mp4">
@@ -330,7 +385,7 @@ Today is the moment of truth, the start of the construction of our semi-circles 
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">        
     I started to write passionately, &quot;IT WORKED!!! Just after two weeks, we are starting to see the sorgum and millet plants start to bud in the soil. The semi-circles are successfully catching water and keeping it inside the area of the semi-circle for the nurishment of the soil and plants! The enbankment around the structure and the depth of the structure is also protecting the plants from the bulk of wind erosion! The future is looking very green for this village!&quot;
 </div>  
-[[Mission Accomplished!|Final Ending]]</tw-passagedata><tw-passagedata pid="26" name="Final Ending" tags="" position="775,1750" size="100,100">(text-colour:green)[[[Final Ending]] ]
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Mission Accomplished!|Final Ending]]</button></tw-passagedata><tw-passagedata pid="26" name="Final Ending" tags="" position="775,1750" size="100,100"><button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[Final Ending]]</button> 
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="25.mp4" type="video/mp4">
@@ -339,7 +394,7 @@ Today is the moment of truth, the start of the construction of our semi-circles 
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">     
 Congratulations! You have successfully brought life back to a land that was once barren and bound to be nothing but an agricultural failure!
 </div>
-[[You may replay the game to investigate all the different choices!|Bringing Life to the Dead]]</tw-passagedata><tw-passagedata pid="27" name="After we finished building the troughs, we waited 2 weeks to see the effectiveness of our system!&quot;" tags="" position="950,1625" size="100,100">
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[You may replay the game to investigate all the different choices!|Bringing Life to the Dead]]</button></tw-passagedata><tw-passagedata pid="27" name="After we finished building the troughs, we waited 2 weeks to see the effectiveness of our system!&quot;" tags="" position="950,1625" size="100,100">
     <div id="wb_MediaPlayer3" >
         <video id="wb_MediaPlayer3" class="MediaPlayer1" autoplay controls>
         <source src="23.mp4" type="video/mp4">
@@ -348,7 +403,7 @@ Congratulations! You have successfully brought life back to a land that was once
         <div name="TextArea1" id="TextArea1"  style="height: 200px;overflow-y:scroll;">      
     I wrote in my notebook, &quot;We failed...Our system did not work, the soil dried up and the seeds did not show any signs of budding life. The water could not flow far enough or have enough volume to nurish that many plants on one elevation. Sure gravity brought water into our system, but it was not enough to suit the needs for all of the plants...
 </div>  
-[[I concluded the page with, &quot;We need to think of a new approach...&quot;|consult with Ali while formulating ideas to solve the main issues]]</tw-passagedata></tw-storydata>
+<button type="submit" id="ThemeableButton1" name="" value="Button" class="ui-button ui-corner-all" style="left:0px;top:9px;width:100%;z-index:0;">[[I concluded the page with, &quot;We need to think of a new approach...&quot;|Consult with Ali while formulating ideas to solve the main issues]]</button></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
